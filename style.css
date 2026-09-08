@@ -807,17 +807,17 @@ body.invitation-open .main-container {
 
 /* Footer */
 .main-footer {
-    color: var(--bright-gold);
+    color: var(--maroon-dark);
     font-size: 1.1rem;
     padding-top: 20px;
-    border-top: 1px solid rgba(212, 175, 55, 0.3);
+    border-top: 1px solid rgba(166, 108, 37, 0.3);
 }
 
 .main-footer small {
     display: block;
-    color: #D4AF37;
+    color: var(--text-maroon);
     margin-top: 6px;
-    opacity: 0.8;
+    opacity: 1;
 }
 
 /* ======================================================
