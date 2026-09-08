@@ -985,16 +985,19 @@ body.invitation-open .main-container {
     }
 
     .door-overlay {
-        width: 100%;
-        height: 100dvh;
-        min-height: 560px;
+        top: 3dvh;
+        left: 3%;
+        width: 94%;
+        height: 94dvh;
+        min-height: 0;
+        border-radius: 16px;
     }
 
     .door {
         flex: 0 0 50%;
         width: 50%;
-        height: 100dvh;
-        min-height: 560px;
+        height: 94dvh;
+        min-height: 0;
         background-size: 200% 100%;
         transition-duration: 0.9s;
     }
