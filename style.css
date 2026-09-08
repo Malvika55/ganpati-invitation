@@ -815,6 +815,7 @@ body.invitation-open .main-container {
 
 .main-footer small {
     display: block;
+    font-family: 'Noto Sans Devanagari', sans-serif;
     color: var(--text-maroon);
     margin-top: 6px;
     opacity: 1;
