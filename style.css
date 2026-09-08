@@ -967,8 +967,21 @@ body.invitation-open .main-container {
 
 /* Responsive adjustments */
 @media (max-width: 600px) {
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
     body {
         background-attachment: scroll;
+    }
+
+    .audio-control-btn {
+        top: 12px;
+        right: 12px;
+        width: 42px;
+        height: 42px;
     }
 
     .door-overlay {
@@ -1005,23 +1018,192 @@ body.invitation-open .main-container {
     }
 
     .main-container {
-        padding: 0 10px 40px;
+        width: 100%;
+        padding: 0 12px 36px;
+        border-radius: 18px;
     }
 
-    .header-toran {
-        border-radius: 16px;
-        margin: 12px 0 18px;
+    .top-heading {
+        margin: 0 4px 24px;
     }
 
-    .toran-img {
-        max-height: 180px;
+    .om-tag {
+        font-size: 1rem;
+        line-height: 1.45;
     }
 
-    .shree-title { font-size: 2.3rem; }
-    .sub-invitation { font-size: 1rem; }
-    .family-title { font-size: 2.2rem; }
-    .section-gold-title { font-size: 1.9rem; }
-    .invitation-card { padding: 25px 15px; border-width: 8px; }
+    .shree-title {
+        font-size: clamp(2rem, 9vw, 2.3rem);
+        line-height: 1.3;
+    }
+
+    .sub-invitation {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+
+    .bappa-blessing-section {
+        margin-bottom: 28px;
+    }
+
+    .section-title-wrap {
+        margin-bottom: 12px;
+    }
+
+    .section-gold-title {
+        font-size: 1.75rem;
+        line-height: 1.35;
+    }
+
+    .blessing-sub {
+        font-size: 0.85rem;
+        line-height: 1.55;
+    }
+
+    .bappa-idol-frame {
+        width: 100%;
+        padding: 5px;
+        border-width: 3px;
+        border-radius: 18px;
+    }
+
+    .ganesha-img {
+        border-radius: 13px;
+    }
+
+    .tap-hint-badge {
+        bottom: 10px;
+        padding: 5px 12px;
+        font-size: 0.75rem;
+        white-space: nowrap;
+    }
+
+    .invitation-card-section {
+        margin-bottom: 32px;
+    }
+
+    .invitation-card {
+        padding: 24px 13px;
+        border-width: 7px;
+        border-radius: 18px;
+    }
+
+    .card-corner {
+        width: 25px;
+        height: 25px;
+        border-width: 3px;
+    }
+
+    .badge-tag {
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+    }
+
+    .family-title {
+        font-size: 2.1rem;
+    }
+
+    .card-welcome-text {
+        font-size: 0.95rem;
+        line-height: 1.55;
+        margin-bottom: 20px;
+    }
+
+    .marathi-message {
+        font-size: 1rem;
+        line-height: 1.75;
+        margin-bottom: 22px;
+    }
+
+    .date-highlight-box {
+        padding: 12px 10px;
+        margin-bottom: 26px;
+    }
+
+    .date-item .value-date {
+        font-size: 1.1rem;
+        line-height: 1.5;
+    }
+
+    .timeline {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        margin-bottom: 28px;
+    }
+
+    .schedule-head {
+        font-size: 1.35rem;
+        line-height: 1.4;
+        margin-bottom: 18px;
+    }
+
+    .timeline-card {
+        padding: 16px 12px;
+        border-radius: 13px;
+    }
+
+    .timeline-card h4 {
+        font-size: 1.05rem;
+        line-height: 1.45;
+    }
+
+    .timeline-card p {
+        font-size: 0.86rem;
+        line-height: 1.55;
+    }
+
+    .day-tag {
+        font-size: 0.72rem;
+        padding: 3px 9px;
+    }
+
+    .venue-box {
+        padding: 22px 12px;
+        margin-bottom: 20px;
+    }
+
+    .address-text {
+        font-size: 0.98rem;
+        line-height: 1.65;
+    }
+
+    .map-btn {
+        max-width: 100%;
+        padding: 11px 14px;
+        font-size: 0.88rem;
+        line-height: 1.4;
+    }
+
+    .action-buttons-section {
+        margin-bottom: 28px;
+    }
+
+    .action-btn {
+        width: 100%;
+        justify-content: center;
+        padding: 13px 18px;
+        font-size: 0.98rem;
+    }
+
+    .main-footer {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+
+    .main-footer small {
+        font-size: 0.75rem;
+        line-height: 1.5;
+    }
+
+    .modal-overlay {
+        padding: 12px;
+    }
+
+    .modal-content {
+        padding: 24px 16px;
+        border-radius: 18px;
+    }
+
     .door-center-seal { width: min(150px, 42vw); height: min(150px, 42vw); }
     .seal-content h2 { font-size: 1.05rem; }
     .tap-text { font-size: 0.68rem; letter-spacing: 1.6px; }
